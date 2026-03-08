@@ -1,0 +1,31 @@
+# --- Entornos Virtuales ---
+# No subimos la carpeta del venv porque cada colaborador debe crear la suya
+venv/
+.venv/
+env/
+ENV/
+
+# --- Python ---
+# Archivos compilados que ensucian el repo
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- IA y Visión (Modelos) ---
+# Si tus modelos (.h5, .pt, .onnx) son muy pesados (>50MB), 
+# es mejor no subirlos a Git directamente o usar Git LFS.
+*.weights
+*.h5
+*.pt
+*.onnx
+
+# --- Sistema Operativo (Raspberry Pi / Linux / Mac) ---
+.DS_Store
+.thumbs.db
+.cache/
+
+# --- Logs y Datos Temporales ---
+*.log
+data/raw/
+data/processed/
