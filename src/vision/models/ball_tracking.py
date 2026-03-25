@@ -61,5 +61,5 @@ def main(): #Creamos una función, la primera para hacer pruebas de detección d
         cv2.waitKey(1)
 
 
-if __name__ == "__main__":  #Si el script se ejecuta directamente, entonces ejecutar, sino esperar ordenes
+if __name__ == "__main__":  #Si el script se ejecuta directamente, entonces ejecutar, sino esperar ordenes o esperar a ser llamado
     main()
